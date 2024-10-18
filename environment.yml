@@ -9,8 +9,6 @@ dependencies:
     - opencv-python
     - ultralytics
     - torch
-    - torchvision
-    - torchaudio
     - numpy
     - pandas
     

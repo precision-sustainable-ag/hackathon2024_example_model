@@ -109,12 +109,6 @@ batch_size = 5
 lr = 0.001
 ```
 
-Add some optimizers
-
-```python
-optimizer = optim.Adam(model.parameters(), lr=1e-4)
-criterion = nn.CrossEntropyLoss()
-```
 
 Train the model 
 ```python
@@ -125,10 +119,12 @@ model.train(data = plant_data_yml_fpath,
                 cache=False) 
 ```
 
+
 Save the model
 ```python
 model.save('yolov8_example.pt')
 ```
+
 
 Read more about training a YOLO model in [1].
 

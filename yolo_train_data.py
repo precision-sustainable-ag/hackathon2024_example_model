@@ -1,6 +1,4 @@
 import torch
-import torchvision
-from torch import nn, optim
 from ultralytics import YOLO
 import os
 """
@@ -19,9 +17,6 @@ lr = 0.001
 # Set device (GPU if available)
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 model.to(device)
-
-optimizer = optim.Adam(model.parameters(), lr=1e-4)
-criterion = nn.CrossEntropyLoss()
 
 # Set model to training mode
 model.train(data = plant_data_yml_fpath,
