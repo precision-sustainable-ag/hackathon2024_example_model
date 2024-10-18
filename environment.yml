@@ -1,0 +1,16 @@
+name: example_model
+channels:
+  - conda-forge
+  - conda-forge/label/dev
+dependencies:
+  - python==3.9
+  - pip
+  - pip:
+    - opencv-python
+    - ultralytics
+    - torch
+    - torchvision
+    - torchaudio
+    - numpy
+    - pandas
+    

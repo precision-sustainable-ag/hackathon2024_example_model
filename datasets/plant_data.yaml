@@ -1,0 +1,54 @@
+# set paths to train, val and test data.
+train: images/train
+val: images/val
+test: images/test
+
+# list class names
+names:
+  0: background
+  1: Palmer amaranth
+  2: Common ragweed
+  3: Sicklepod
+  4: Cocklebur
+  5: Large crabgrass
+  6: Goosegrass
+  7: Broadleaf signalgrass
+  8: Purple nutsedge
+  9: Waterhemp
+  10: Barnyardgrass
+  11: Jungle rice
+  12: Texas millet
+  13: Kochia
+  14: Common sunflower
+  15: Ragweed parthenium
+  16: Johnsongrass
+  17: Soybean
+  18: Smooth pigweed
+  19: Common lambsquarters
+  20: Fall panicum
+  21: Jimson weed
+  22: Velvetleaf
+  23: Yellow foxtail
+  24: Giant foxtail
+  25: Horseweed
+  26: Maize
+  27: unknown
+  28: colorchecker
+  29: Hairy vetch
+  30: Winter pea
+  31: Crimson clover
+  32: Red clover
+  33: Mustards
+  34: cultivated radish
+  35: Cereal rye
+  36: Triticale
+  37: Winter wheat
+  38: Oats
+  39: Barley
+  40: Black oats
+  41: upland cotton
+  42: Sprawling signalgrass
+  43: Prickly sida
+  44: Pitted morning-glory
+  45: Spiny amaranth
+  46: desert horsepurslane
